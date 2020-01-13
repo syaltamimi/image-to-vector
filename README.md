@@ -37,7 +37,7 @@ The scope of this post covers converting line drawing images to vector graphics 
 
 ## Image to graph
 
-It is convenient to use graph object as an intermediate representation of image features, where key points represent graph nodes and image lines are graph links. Once the graph is constructed, it will be easy to replace graph links with the actual curve shape. A good starting point could be from *MorphologicalGraph* functions starting with skeleton image (e.g. ![skeleton image](imgs/3.PNG) which is the result of *Binarize* and *Thinning* functions applied to the input image). Then modify graph links to have the exact shape of original image.
+It is convenient to use graph object as an intermediate representation of image features, where key points represent graph nodes and image lines are graph links. Once the graph is constructed, it will be easy to replace graph links with the actual curve shape. A good starting point could be from *MorphologicalGraph* functions starting with skeleton image (e.g. ![skeleton image](imgs/3.png) which is the result of *Binarize* and *Thinning* functions applied to the input image). Then modify graph links to have the exact shape of original image.
 
 The process is divided into three steps:
 
@@ -257,17 +257,17 @@ And here we are. Left: input, Right: output.
 
 ## More Tests
 
-![Test 1 PNG](imgs/13.PNG)   ==  ![Test 1 SVG](imgs/14.svg)
+![Test 1 PNG](imgs/13.png)   ==  ![Test 1 SVG](imgs/14.svg)
 
-![Test 2 PNG](imgs/15.PNG)  ==  ![Test 2 SVG](imgs/15.svg)
+![Test 2 PNG](imgs/15.png)  ==  ![Test 2 SVG](imgs/15.svg)
 
-![Test 3 PNG](imgs/16.PNG)  ==  ![Test 3 SVG](imgs/16.svg)
+![Test 3 PNG](imgs/16.png)  ==  ![Test 3 SVG](imgs/16.svg)
 
-![Test 4 PNG](imgs/17.PNG)  ==  ![Test 4 SVG](imgs/17.svg)
+![Test 4 PNG](imgs/17.png)  ==  ![Test 4 SVG](imgs/17.svg)
 
-![Test 5 PNG](imgs/18.PNG)  ==  ![Test 5 SVG](imgs/18.svg)
+![Test 5 PNG](imgs/18.png)  ==  ![Test 5 SVG](imgs/18.svg)
 
-![Test 6 PNG](imgs/19.PNG)  ==  ![Test 6 SVG](imgs/19.svg)
+![Test 6 PNG](imgs/19.png)  ==  ![Test 6 SVG](imgs/19.svg)
 
 ----------
 
