@@ -95,7 +95,7 @@ morphologicalGraphics[skeleton_, opts : OptionsPattern[morphologicalGraphics]] :
     
     {vertices, others} = findVertices[skeleton]; 
     
-    {linkComponents, others} = findLinks[skeleton, vertices, otehrs];
+    {linkComponents, others} = findLinks[skeleton, vertices, others];
     
     {strong4, others} = findStrongConnections[vertexComponents, linkComponents, others];
     
